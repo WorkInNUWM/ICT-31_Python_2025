@@ -1,0 +1,15 @@
+ROUTINES for 
+ALL functions 
+OS.PATH is 
+OS.NAME is 
+OS.CURDIR is 
+OS.PARDIR is 
+OS.SEP is 
+OS.EXTSEP is 
+OS.ALTSEP is 
+OS.PATHSEP is 
+OS.LINESEP is 
+or ' 
+or ' 
+OS.DEFPATH is 
+OS.DEVNULL is 
