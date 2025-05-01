@@ -87,42 +87,42 @@ text_for_row_csv=[item.split(",") for item in text_for_row if len(item)>0]
 
 # # #task3
 # # # imdb.csv
-# imdb = [
-#     {
-#         'title': 'Lord of the Rings: Two towers',
-#         'year': 2002,
-#         'rating': 8.7},
-#     {
-#         'title': 'Matrix',
-#         'year': 1999,
-#         'rating': 8.7},
-#     {
-#         'title': 'Interstellar',
-#         'year': 2014,
-#         'rating': 8.5},
-#     {
-#         'title': 'Back to the Future',
-#         'year': 1985,
-#         'rating': 8.5},
-#     {
-#         'title': 'Logan: Wolverine',
-#         'year': 2017,
-#         'rating': 8.1}
-# ]
+imdb = [
+    {
+        'title': 'Lord of the Rings: Two towers',
+        'year': 2002,
+        'rating': 8},
+    {
+        'title': 'Matrix',
+        'year': 1999,
+        'rating': 8},
+    {
+        'title': 'Interstellar',
+        'year': 2014,
+        'rating': 9},
+    {
+        'title': 'Back to the Future',
+        'year': 1985,
+        'rating': 9},
+    {
+        'title': 'Logan: Wolverine',
+        'year': 2017,
+        'rating': 7}
+]
 
 
-# # with open(os.path.join(os.getcwd(),"11_files_csv_json","imdb.csv"),"wt") as file_for_write:
-# #     recordcsv=csv.DictWriter(file_for_write,delimiter=";",fieldnames=["title","year","rating"],lineterminator="\n")
-# #     recordcsv.writeheader()
-# #     recordcsv.writerows(imdb)
+# with open(os.path.join(os.getcwd(),"11_files_csv_json","imdb.csv"),"wt") as file_for_write:
+#     recordcsv=csv.DictWriter(file_for_write,delimiter=";",fieldnames=["title","year","rating"],lineterminator="\n")
+#     recordcsv.writeheader()
+#     recordcsv.writerows(imdb)
 
-# # print("*"*40)
-# # print(f"{str(os.getcwd())}\\11_files_csv_json\\imdb.csv");
+# print("*"*40)
+# print(f"{str(os.getcwd())}\\11_files_csv_json\\imdb.csv");
 # with open(f"{str(os.getcwd())}\\11_files_csv_json\\imdb.csv","rt") as file_for_read:
 #     writecsv=csv.DictReader(file_for_read,delimiter=";",fieldnames=["title","year","rating"],lineterminator="\n")
 #     list_movies=[]
 #     for row in writecsv:
-#         # print(row)
+#         print(row)
 #         list_movies.append(row)
 #     print(list_movies[1:])
 
